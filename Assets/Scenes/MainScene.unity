@@ -505,6 +505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movementSpeed: 5
+  _sprintSpeedModifier: 3
   _rotationSpeed: 200
 --- !u!1 &797737396
 GameObject:
@@ -1145,6 +1146,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506624673738847810, guid: 5510a2e77c6b241008228f44a2645af7,
+        type: 3}
+      propertyPath: _movementSpeed
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
