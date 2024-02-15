@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _rotationSpeed = 200;
 
 
-    void Update()
+    void FixedUpdate()
     {
         HandleMovement();
         HandleRotation();
